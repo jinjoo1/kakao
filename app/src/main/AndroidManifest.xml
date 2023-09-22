@@ -15,9 +15,7 @@
         <activity
             android:name=".Mybox_Activity"
             android:exported="false" />
-        <activity
-            android:name=".Search_Activity"
-            android:exported="false" />
+
         <activity
             android:name=".Bottom_Activity"
             android:exported="false" />
