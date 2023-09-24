@@ -66,4 +66,8 @@ dependencies {
     implementation ("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0")
     implementation ("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0")
 
+    //리사이클러뷰
+    implementation ("androidx.recyclerview:recyclerview:1.3.1")
+
+
 }
