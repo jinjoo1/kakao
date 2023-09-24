@@ -13,14 +13,19 @@
         android:theme="@style/Theme.Task_kakao"
         tools:targetApi="31">
         <activity
-            android:name=".Mybox_Activity"
+            android:name=".items"
             android:exported="false" />
-
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mybox_Fragment"
+            android:exported="false" />
         <activity
             android:name=".Bottom_Activity"
             android:exported="false" />
         <activity
-            android:name=".Search_Activity"
+            android:name=".Search_Fragment"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
