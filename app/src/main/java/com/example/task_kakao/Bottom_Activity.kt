@@ -2,10 +2,8 @@ package com.example.task_kakao
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.TextUtils.replace
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
-
 import com.example.task_kakao.databinding.ActivityBottomBinding
 
 class Bottom_Activity : AppCompatActivity() {
