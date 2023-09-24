@@ -5,11 +5,16 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.task_kakao.databinding.ActivityBottomBinding
+import com.example.task_kakao.databinding.FragmentMyboxBinding
 
+
+//내가 관심목록 찜 해둔걸 내 박스로 옮기는 프래그 먼트입니다.
 class Mybox_Fragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var _binding:
-    private var param2: String? = null
+
+
+    //바인딩설정
+    private lateinit var binding: FragmentMyboxBinding
 
 
 
