@@ -53,7 +53,7 @@ dependencies {
     implementation ("androidx.fragment:fragment-ktx:1.6.1")
 
 
-    //retrofit관련
+    //retrofit관련,api연결할때 필요한 그래들임
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation ("com.squareup.okhttp3:logging-interceptor:4.10.0")
